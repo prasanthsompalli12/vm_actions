@@ -11,7 +11,7 @@ jobs:
       - name: login to Azure
         uses: azure/login@v1
         with:
-          creds: ${{ secrets.AZURE_CREDENTIALS }}
+          creds: ${{ secrets.VMACTIONSEC }}
 
       - name: checkout source code
         uses: actions/checkout@v1
